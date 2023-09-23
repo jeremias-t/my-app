@@ -5,8 +5,7 @@
         <p class="profile-name">¡Hola! Soy</p>
         <h1 class="profile-titulo">Jeremías Torres</h1>
         <p class="profile-description text-h6 white--text">
-          Soy un desarrollador web con experiencia en diversas tecnologías. Mi
-          compromiso es crear soluciones web efectivas y atractivas.
+          Soy un desarrollador web con conocimientos en diversas tecnologías.
         </p>
       </div>
       <div class="profile-image">

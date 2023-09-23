@@ -13,10 +13,10 @@
           >Enviar Correo</v-btn
         >
         <v-btn icon @click="abrirLinkedIn">
-          <v-icon>mdi-linkedin</v-icon>
+          <v-icon class="orange--text">mdi-linkedin</v-icon>
         </v-btn>
         <v-btn icon @click="abrirGitHub">
-          <v-icon>mdi-github</v-icon>
+          <v-icon class="orange--text">mdi-github</v-icon>
         </v-btn>
       </v-card-actions>
     </v-card>
@@ -27,15 +27,12 @@
 export default {
   methods: {
     enviarCorreo() {
-      
       window.location.href = "mailto:portafoliotorer830@gmail.com";
     },
     abrirLinkedIn() {
-      
       window.open("https://www.linkedin.com/in/jeremiasbtorres/", "_blank");
     },
     abrirGitHub() {
-      
       window.open("https://github.com/jeremias-t", "_blank");
     },
   },

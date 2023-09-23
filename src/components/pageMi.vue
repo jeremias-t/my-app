@@ -5,20 +5,19 @@
     >
       <v-card-title class="text-h4 titulo">Sobre Mí</v-card-title>
       <v-card-text class="white--text text-h6">
-        Hola, soy Jeremías, un entusiasta del desarrollo web con experiencia en
-        diversos lenguajes y herramientas. Mi pasión por aprender nuevas
-        tecnologías me impulsa constantemente. Disfruto equilibrar funcionalidad
-        y diseño para crear experiencias web atractivas. Estoy dispuesto a
-        enfrentar desafíos y trabajar en equipo para crear soluciones
-        innovadoras. Mi objetivo es seguir creciendo en esta emocionante
-        industria.
+        Hola, soy Jeremías, un entusiasta del desarrollo web con conocimientos
+        en diversos lenguajes y herramientas. Mis ganas por aprender nuevas
+        tecnologías me motivan constantemente. Me gusta diseñar y crear
+        experiencias web atractivas. Estoy dispuesto a enfrentar desafíos y
+        trabajar en equipo para crear soluciones innovadoras. Mi objetivo es
+        seguir aprendiendo y ganar experiencia.
       </v-card-text>
       <v-card-actions>
         <v-btn icon @click="abrirLinkedIn">
-          <v-icon>mdi-linkedin</v-icon>
+          <v-icon class="orange--text">mdi-linkedin</v-icon>
         </v-btn>
         <v-btn icon @click="abrirGitHub">
-          <v-icon>mdi-github</v-icon>
+          <v-icon class="orange--text">mdi-github</v-icon>
         </v-btn>
       </v-card-actions>
     </v-card>
@@ -29,11 +28,9 @@
 export default {
   methods: {
     abrirLinkedIn() {
-      
       window.open("https://www.linkedin.com/in/jeremiasbtorres/", "_blank");
     },
     abrirGitHub() {
-      
       window.open("https://github.com/jeremias-t", "_blank");
     },
   },
